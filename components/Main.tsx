@@ -1,5 +1,6 @@
 import React, { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 'react';
-import { BackHandler, Linking, Platform, StyleSheet, View, AsyncStorage, NativeModules } from 'react-native';
+import { BackHandler, Linking, Platform, StyleSheet, View, NativeModules } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { WebView, WebViewMessageEvent } from 'react-native-webview';
 import RNExitApp from 'react-native-exit-app';
 import { injectScript } from '../utils/WebviewScript';

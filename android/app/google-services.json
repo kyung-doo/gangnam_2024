@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "60025396367",
+    "project_id": "gangnamingan",
+    "storage_bucket": "gangnamingan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60025396367:android:808fdf277d4e9025cde4fa",
+        "android_client_info": {
+          "package_name": "kr.com.nglms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60025396367-dov7ju12lop5cpt9cnfp8eru777boflr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.com.nglms",
+            "certificate_hash": "2cd767839cf015afc6efd25222c7c47e6c7d55ce"
+          }
+        },
+        {
+          "client_id": "60025396367-i2qsd56ukeb7de9qa2khebr68g5if43h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfU2rfL0Qmf5Lu3xfK4Brk7HBbn7UM4c8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60025396367-i2qsd56ukeb7de9qa2khebr68g5if43h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
