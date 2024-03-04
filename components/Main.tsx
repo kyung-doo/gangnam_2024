@@ -65,7 +65,7 @@ const Main = forwardRef<Refs, Props>(({ initUrl }, ref) => {
           } else {
             webview.current.goBack();
           }
-          setTimeout(() => setLoading(false), 1000/60);
+          setTimeout(() => setLoading(false), 1000);
         }
       } else {
         if(currentUrl.current.includes('UserMain.do') || currentUrl.current.includes(MAIN_PATH) || currentUrl.current.includes(INTRO_PATH)) {
@@ -332,6 +332,7 @@ const Main = forwardRef<Refs, Props>(({ initUrl }, ref) => {
           }}
           bounces={false}
           onLoadEnd={( e ) => {
+            
             setTimeout(() => {
               setLoading(false);
             }, 150);

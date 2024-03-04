@@ -1223,7 +1223,9 @@ DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/React/FBReactNativeSpec`)
+  - Firebase/Messaging (~> 10.21.0)
   - FirebaseCore
+  - FirebaseCoreInternal
   - Flipper (= 0.201.0)
   - Flipper-Boost-iOSX (= 1.76.0.1.11)
   - Flipper-DoubleConversion (= 3.2.0.1)
@@ -1545,6 +1547,6 @@ SPEC CHECKSUMS:
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 9e6a04eacbd94f97d94577017e9f23b3ab41cf6c
 
-PODFILE CHECKSUM: a5f2cacb2410af642b4c7e8ab03233624082306c
+PODFILE CHECKSUM: 0d31f1ddec1453ffcf0dd1869777a07d09d2e284
 
 COCOAPODS: 1.15.2
